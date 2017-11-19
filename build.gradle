@@ -1,0 +1,13 @@
+apply plugin: 'scala'
+// apply plugin: 'scalaStyle'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.12.4'
+    testCompile 'org.scalatest:scalatest_2.12:3.0.4'
+
+    testCompile 'junit:junit:4.12'
+    // classpath 'org.github.ngbinh.scalastyle:gradle-scalastyle-plugin_2.11:1.0.0'
+}
